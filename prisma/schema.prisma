@@ -1,0 +1,7 @@
+model Rule {
+  id        String   @id @default(uuid())
+  trigger   String   // Regex or natural language condition
+  action    String   // Example: "NOTIFY_ADMIN"
+  enabled   Boolean  @default(true)
+  createdAt DateTime @default(now())
+}
