@@ -1,5 +1,4 @@
-# my-ai-system
-
+# Fusion
 ## Overview
 A cognitive platform integrating real-time communication, natural language processing, and workflow automation.
 
